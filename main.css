@@ -1,0 +1,96 @@
+/* CSS reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+  
+  /* Pozícionálás */
+  
+  .profile-card {
+    width: 480px;
+    max-width: calc(100vw - 10px);
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  body {
+    height: 100vh;
+  }
+  
+  .head, .section {
+    text-align:center;
+  }
+  
+  .head,.content {
+    width:90%;
+    margin:0 auto;
+  }
+  img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+  
+  .image {
+    margin-top: -60px;
+  }
+  
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  .head, .about {
+    margin-bottom: 10%;
+  }
+  
+  .content {
+    padding: 5% 10%;
+  }
+  
+  body {
+    background-image: url('http://pctrs.network.hu/clubpicture/1/7/7/5/_/gyonyoru_rozsaszin_naplemente_taj_1775769_2533.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover
+  }
+  
+  .profile-card {
+    background-color: hsla(0, 0%, 100%, .5);
+    border-radius: 9px;
+    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  }
+  
+  img {
+    padding: 3px;
+    background-color: pink;
+    filter: grayscale(50%);
+  }
+  
+  .content {
+    border-top: 2px solid hsla(0, 0%, 30%, .8);
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    filter: grayscale(20%);
+  }
+  
+  .about {
+    text-align:center;
+  }
+  
+  
